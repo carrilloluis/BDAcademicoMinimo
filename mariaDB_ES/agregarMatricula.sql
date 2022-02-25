@@ -3,9 +3,9 @@
 -- Creado	2018/01/09
 -- ---------------------------------------------------------------------
 
-DROP PROCEDURE IF EXISTS `spAddIntoCD`;
+DROP PROCEDURE IF EXISTS `sp0003`;
 DELIMITER $$
-CREATE PROCEDURE IF NOT EXISTS `spAddIntoCD` ( -- agregarMatrícula
+CREATE PROCEDURE IF NOT EXISTS `sp0003` ( -- agregarMatrícula
 	IN `@a` SMALLINT(1) UNSIGNED,
 	IN `@b` CHAR(6) CHARACTER SET utf8
 ) BEGIN
