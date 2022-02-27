@@ -3,9 +3,9 @@
 -- Creado	2018/01/09
 -- ---------------------------------------------------------------------
 
-DROP PROCEDURE IF EXISTS `spAddIntoDE`;
+DROP PROCEDURE IF EXISTS `sp0004`;
 DELIMITER $$
-CREATE PROCEDURE IF NOT EXISTS `spAddIntoDE` ( -- agregarProfesor
+CREATE PROCEDURE IF NOT EXISTS `sp0004` ( -- agregarProfesor
 	IN `@a` CHAR(5) CHARACTER SET utf8,
 	IN `@b` VARCHAR(64) CHARACTER SET utf8
 ) BEGIN
